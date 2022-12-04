@@ -1,13 +1,16 @@
 .wrapper {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(360deg, rgba(143, 76, 215, 1) 0%, rgba(92, 51, 190, 1) 100%);
 
     .skip {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         font-size: 32px;
-        color: #f6c2c2;
+        color: #fff;
+        font-weight: 700;
 
         >span {
             padding-top: 16px;
@@ -20,11 +23,49 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-weight: 700;
 
         >div {
             padding-top: 10px;
             font-size: 32px;
             color: #D4D4EE;
+        }
+    }
+
+    .card {
+        width: 369px;
+        height: 621px;
+        margin: 0 auto;
+        margin-bottom: 62px;
+        margin-top: 50px;
+        border-radius: 10px;
+        background: #fff;
+        font-size: 32px;
+        font-weight: 350;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            >img {
+                margin-top: 138px;
+            }
+
+            .money {
+                margin-top: 20px;
+            }
+
+            .nextpage {
+                margin-top: 90px;
+                color: #6035BF;
+                font-weight: 700;
+            }
+
+            >a {
+                text-decoration: none;
+            }
         }
     }
 }
