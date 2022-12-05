@@ -1,5 +1,4 @@
 import { defineComponent } from "vue";
-import { RouterLink } from "vue-router";
 import logo from '../../assets/icons/saving-pot.png'
 import s from '../../views/welcome.module.scss'
 
